@@ -1,2 +1,5 @@
 build/
+dist/
 pbrdemo.egg-info/
+AUTHORS
+ChangeLog
