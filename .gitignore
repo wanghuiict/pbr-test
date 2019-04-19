@@ -3,3 +3,5 @@ dist/
 pbrdemo.egg-info/
 AUTHORS
 ChangeLog
+*.pyc
+*.pyo
