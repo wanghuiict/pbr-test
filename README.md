@@ -1,6 +1,6 @@
 # test OpenStack pbr
 
-## build 
+## build && install
 
 ```
 # python setup.py  build
@@ -8,6 +8,11 @@
 # cat pbrdemo.egg-info/PKG-INFO 
 
 # python setup.py  bdist_rpm
+
+# yum install dist/pbrdemo-0.1.2-1.noarch.rpm
+ 
+# pbrdemo
+test OpenStack pbr
 
 ```
 
@@ -23,6 +28,5 @@ pbr从git tag得到Version，
 
 0.1.1可以支持，生成版本0.0.1
 
-
-
+-END-
 
